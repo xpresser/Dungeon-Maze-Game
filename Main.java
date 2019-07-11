@@ -8,7 +8,7 @@ public class Main {
 
         System.out.println("Hello, what is your name?");
         String name = scanner.nextLine();
-        System.out.printf("Hi %s! WELCOME TO DUNGEON MAZE!%n", name);
+        System.out.printf("Hi %s! WELCOME TO THE DUNGEON MAZE!%n", name);
 
         Dungeon dungeon = new Dungeon();
         Player player = new Player(name, 100, new Integer[]{0, 0}, 50, 3);
